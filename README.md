@@ -17,24 +17,4 @@ Bienvenue dans ce projet enchanté développé avec **Angular 19**. `Magic Mood`
 * **Styles** : SCSS (Animations personnalisées, Glassmorphism, Flexbox)
 * **Déploiement** : Vercel
 
-## 🚀 Installation pour les Apprentis Sorciers
-
-Si vous souhaitez cloner ce projet pour explorer sa magie :
-
-1.  **Cloner le dépôt** :
-    ```bash
-    git clone [https://github.com/TON_PSEUDO/magic-mood-app.git](https://github.com/TON_PSEUDO/magic-mood-app.git)
-    ```
-2.  **Installer les dépendances** :
-    ```bash
-    npm install
-    ```
-3.  **Lancer le sortilège de développement** :
-    ```bash
-    ng serve
-    ```
-4.  Rendez-vous sur `http://localhost:4200/` !
-
----
-
-*Développé avec un peu de foi, de confiance et de poussière de fée par ILoche* 🧚‍♂️✨
+*Développé avec un peu de foi, de confiance et de poussière de fée par Iloche* 🧚‍♂️✨
