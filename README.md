@@ -1,59 +1,40 @@
-# MagicMoodApp
+# 🧚 Magic Mood - La Vallée des Fées ✨
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.0.
+Bienvenue dans ce projet enchanté développé avec **Angular 19**. `Magic Mood` est une application immersive qui capture l'essence du Pays Imaginaire pour refléter votre humeur du jour à l'aide de poussière de fée et de composants réactifs.
 
-## Development server
+## 🌟 Fonctionnalités Magiques
 
-To start a local development server, run:
+* **Expérience Immersive** : Un décor de la Vallée des Fées qui s'adapte à vos émotions.
+* **Poussière de Fée Interactive** : Un curseur personnalisé qui laisse une traînée d'étincelles magiques sur son passage.
+* **Explosion de Joie** : Cliquez sur le bouton "Invoquer la magie" pour déclencher une pluie d'étoiles et découvrir votre mood.
+* **Design Glassmorphism** : Une interface moderne et aérienne utilisant les dernières techniques CSS/SCSS.
+* **Réactivité Angular** : Utilisation des **Signals** pour une gestion d'état fluide et performante.
 
-```bash
-ng serve
-```
+## 🛠️ Grimoire Technique (Stack)
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+* **Framework** : Angular (v19)
+* **Langage** : TypeScript
+* **Styles** : SCSS (Animations personnalisées, Glassmorphism, Flexbox)
+* **Déploiement** : Vercel
 
-## Code scaffolding
+## 🚀 Installation pour les Apprentis Sorciers
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+Si vous souhaitez cloner ce projet pour explorer sa magie :
 
-```bash
-ng generate component component-name
-```
+1.  **Cloner le dépôt** :
+    ```bash
+    git clone [https://github.com/TON_PSEUDO/magic-mood-app.git](https://github.com/TON_PSEUDO/magic-mood-app.git)
+    ```
+2.  **Installer les dépendances** :
+    ```bash
+    npm install
+    ```
+3.  **Lancer le sortilège de développement** :
+    ```bash
+    ng serve
+    ```
+4.  Rendez-vous sur `http://localhost:4200/` !
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+---
 
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+*Développé avec un peu de foi, de confiance et de poussière de fée par [Ton Prénom/Pseudo].* 🧚‍♂️✨
