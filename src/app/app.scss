@@ -1,0 +1,75 @@
+/* --- À mettre dans app.scss --- */
+.app-wrapper {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../assets/pixie-hollow.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  transition: all 1s ease;
+}
+
+.color-overlay {
+  position: absolute;
+  inset: 0;
+  transition: background-color 1.5s ease;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.container {
+    padding: 3rem;
+  border-radius: 40px;
+  text-align: center;
+  position: relative;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(12px) saturate(150%);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  font-family: 'Princess Sofia', cursive; /* N'oublie pas le lien Google Font dans index.html */
+  font-size: 3.5rem;
+  color: white;
+  text-shadow: 0 0 15px rgba(153, 255, 51, 0.5);
+}
+
+.btn-magic {
+  padding: 15px 30px;
+  border-radius: 50px;
+  border: none;
+  background: white;
+  cursor: pointer;
+  font-weight: bold;
+  transition: transform 0.2s;
+  &:hover { transform: scale(1.1); }
+}
+
+.mood-card {
+  margin-top: 2rem;
+  padding: 2rem;
+  border-radius: 30px;
+  color: white;
+  animation: popIn 0.5s both;
+}
+
+@keyframes popIn {
+  from { transform: scale(0.8); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+@keyframes slowPan {
+  0% { background-position: center; scale: 1; }
+  50% { background-position: 52% 48%; scale: 1.05; }
+  100% { background-position: center; scale: 1; }
+}
+
+.app-wrapper {
+  animation: slowPan 20s infinite ease-in-out;
+}
