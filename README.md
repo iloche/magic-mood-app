@@ -37,4 +37,4 @@ Si vous souhaitez cloner ce projet pour explorer sa magie :
 
 ---
 
-*Développé avec un peu de foi, de confiance et de poussière de fée par [Ton Prénom/Pseudo].* 🧚‍♂️✨
+*Développé avec un peu de foi, de confiance et de poussière de fée par ILoche* 🧚‍♂️✨
